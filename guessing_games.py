@@ -10,3 +10,13 @@
 #------functions---------
 
 #------main routine------
+
+if(__name__=="__main__"):
+    #Enter your name
+    #Enter your age
+    #Make a list of number
+    # intro to the game
+    #computer random number
+    # give feedback if higher or lower
+    #count amount of guesses
+    # Give the stats how it took to guess
