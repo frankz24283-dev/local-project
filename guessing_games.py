@@ -32,5 +32,15 @@ if(__name__=="__main__"):
     #count amount of guesses
     guess_count = 0
     guess = 0
+    # Main guessing loop
+    while guess != random_number:
+        guess = int(input("Enter your guess (1-100): "))
+        guess_count = guess_count + 1
+    # give feedback if higher or lower
+        if guess < random_number:
+            print("Too low! Try again.")
+        elif guess > random_number:
+            print("Too high! Try again.")
     # Give the stats how it took to guess
-    while guess != random_number
+    print("Congratulations " + name + "! You guessed the correct number!")
+    print("It took you " + str(guess_count) + " guesses.")
